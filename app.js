@@ -14,15 +14,15 @@ var firebaseConfig = {
 
 var questions = [
     { question: "Q 01. HTML Stands for ?", option1: "Hyper Text Markup Language", option2: "Hyper Tech Markup Language", option3: "Hyper Touch Markup Language", corrAnswer: "Hyper Text Markup Language" },
-    { question: "Q 02. CSS Stands for", option1: "Cascoding Style Sheets", option2: "Cascading Style Sheets", option3: "Cascating Style Sheets", corrAnswer: "Cascading Style Sheets" },
-    { question: "Q 03. Which tag is used for most large heading", option1: "<h6>", option2: "<h2>", option3: "<h1>", corrAnswer: "<h1>" },
-    { question: "Q 04. Which is the correct CSS syntax?", option1: "{body:color=black}", option2: "{body:color;black:}", option3: "body {color:black;}", corrAnswer: "body {color:black;}" },
-    { question: "Q 05. Any element assigned with id, can be get in css ", option1: "by # tag", option2: "by @ tag", option3: "by & tag", corrAnswer: "by # tag" },
-    { question: "Q 06. How do you insert a comment in a CSS file ? ", option1: "// this is a comment //", option2: "// this is a comment ", option3: "/* this is a comment */", corrAnswer: "/* this is a comment */" },
-    { question: "Q 07. In JS variable types are ____________ ", option1: "there are Six types", option2: "there are three types", option3: "there are eight types", corrAnswer: "there are eight types" },
-    { question: "Q 08. In array we can use key name and value ", option1: "True", option2: "False", option3: "None of above", corrAnswer: "False" },
-    { question: "Q 09. toFixed() is used to define length of decimal ", option1: "True", option2: "False", option3: "None of above", corrAnswer: "True" },
-    { question: "Q 10. push() method is used to add element in the start of array ", option1: "True", option2: "False", option3: "None of above", corrAnswer: "False" }
+    { question: "Q 02. CSS Stands for ?", option1: "Cascoding Style Sheets", option2: "Cascading Style Sheets", option3: "Cascating Style Sheets", corrAnswer: "Cascading Style Sheets" },
+    { question: "Q 03. Which tag is used for most large heading ?", option1: "<h6>", option2: "<h2>", option3: "<h1>", corrAnswer: "<h1>" },
+    { question: "Q 04. Which is the correct CSS syntax ?", option1: "{body:color=black}", option2: "{body:color;black:}", option3: "body {color:black;}", corrAnswer: "body {color:black;}" },
+    { question: "Q 05. Any element assigned with id, can be get in css ?", option1: "by # tag", option2: "by @ tag", option3: "by & tag", corrAnswer: "by # tag" },
+    { question: "Q 06. How do you insert a comment in a CSS file ?", option1: "// this is a comment //", option2: "// this is a comment ", option3: "/* this is a comment */", corrAnswer: "/* this is a comment */" },
+    { question: "Q 07. In JS variable types are ____________ ?", option1: "there are Six types", option2: "there are three types", option3: "there are eight types", corrAnswer: "there are eight types" },
+    { question: "Q 08. In array we can use key name and value ?", option1: "True", option2: "False", option3: "None of above", corrAnswer: "False" },
+    { question: "Q 09. toFixed() is used to define length of decimal ?", option1: "True", option2: "False", option3: "None of above", corrAnswer: "True" },
+    { question: "Q 10. push() method is used to add element in the start of array ?", option1: "True", option2: "False", option3: "None of above", corrAnswer: "False" }
   ];
   
   var quesElement = document.getElementById("ques");
